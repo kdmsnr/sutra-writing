@@ -1,0 +1,13 @@
+2010-11-24  KADO Masanori  <kdmsnr@gmail.com>
+
+	* 1-3/brainf_ck.rb : resqueでキャッチできるのはStandardErrorのサブクラス
+
+	* 1-1/q_3.rb: formatメソッドの「%p」は、inspectしたもの
+	- こんなん分かるか！
+
+	* 1-1/quine.rb: $0 と __FILE__
+	- __FILE__ 実行中のプログラム名
+	- $0 インタプリタが起動したプログラム名
+
+	* ruby -e 'p $LOAD_PATH'
+
