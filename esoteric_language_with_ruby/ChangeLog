@@ -1,6 +1,19 @@
+2010-11-26  KADO Masanori  <kdmsnr@gmail.com>
+
+	* 1-4/lib/whitespace/vm.rb (WhiteSpace::VM#find_labels):
+	insns.each_with_index_ do |(insn, arg), i|
+	  # ...
+	end
+	ってのができるらしい！→ (insn, arg)
+
+	* 1-4: スタックのヒープの図（記号？）がいい感じ
+	S|[3][5]
+	H|[ ][ ][ ][5][ ][ ]...
+	↑こんな
+
 2010-11-24  KADO Masanori  <kdmsnr@gmail.com>
 
-	* 1-3/brainf_ck.rb : resqueでキャッチできるのはStandardErrorのサブクラス
+	* 1-3/brainf_ck.rb: resqueでキャッチできるのはStandardErrorのサブクラス
 
 	* 1-1/q_3.rb: formatメソッドの「%p」は、inspectしたもの
 	- こんなん分かるか！
